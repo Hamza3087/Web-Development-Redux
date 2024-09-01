@@ -1,0 +1,57 @@
+.main-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .child-div {
+    background: #fff; /* Dark blue background color */
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+  }
+  
+  .additems {
+    margin-bottom: 20px;
+  }
+  
+  .additems input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .additems input:focus {
+    outline: none;
+  }
+  
+  .showItems {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .eachItem {
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-btn {
+    display: flex;
+    gap: 5px;
+  }
+  body {
+    background-color: #14213d; /* Dark blue background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; /* Set a default font family */
+  }
+    
